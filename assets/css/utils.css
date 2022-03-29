@@ -1,6 +1,4 @@
 
-
-
 /* DEBUG */
 
 .debug{
@@ -8,6 +6,10 @@
     border: 1px solid black;
 }
 
-.sc-min-height{
-    min-height: 300px;
+.sc-min-height-200{
+    min-height: 200px;
+}
+
+.sc-min-height-500{
+    min-height: 500px;
 }
