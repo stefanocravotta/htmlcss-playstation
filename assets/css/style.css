@@ -3,8 +3,24 @@
 /* HEADER */
 
 header{
-    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
+
+.sc-header-top{
+    height: 25px;
+    background-color: black;
+}
+.sc-header-top img{
+    width: 60px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+
 
 /* JUMBOTRON */
 
