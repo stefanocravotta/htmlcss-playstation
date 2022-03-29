@@ -44,6 +44,7 @@ header{
 
 /* MAIN */
 
+/* COPERTINE */
 #copertine .card{
     margin: 15px 0;
     border-radius: 15px;
@@ -54,4 +55,9 @@ header{
     width: 100%;
 }
 
+/* PLAYSTATION 5 */
+
+.sc-img-50 img{
+    width: 100%;
+}
 /* FOOTER */
