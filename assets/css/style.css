@@ -118,4 +118,16 @@ header{
     background-color: #161c3b;
 }
 
+/* SOCIAL-MEDIA */
+
+#social-media .sc-card{
+    border-radius: 0;
+    margin: 20px 5px;
+}
+
+#social-media .sc-card img{
+    width: 70px;
+}
+
+
 /* FOOTER */
