@@ -33,9 +33,7 @@ header{
     height: 40px;
 }
 .jumbotron .sc-container-jumbo{
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
+    padding-top: 200px;
     width: 250px;
 }
 .sc-container-jumbo h2,
