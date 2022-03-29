@@ -9,6 +9,17 @@
     border: none;
 }
 
+/* CARD */
+.sc-card{
+    margin: 15px 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.sc-card img{
+    width: 100%;
+}
+
+
 /* SC-BACKGROUND-COLOR */
 
 .sc-bg-orange{

@@ -45,15 +45,7 @@ header{
 /* MAIN */
 
 /* COPERTINE */
-#copertine .card{
-    margin: 15px 0;
-    border-radius: 15px;
-    overflow: hidden;
-}
 
-#copertine .card img{
-    width: 100%;
-}
 
 /* PLAYSTATION 5 */
 
@@ -98,5 +90,13 @@ header{
 .sc-container-banner p,
 .sc-container-banner .sc-btn{
     margin-top: 20px;
+}
+
+/* NUOVE USCITE */
+
+#nuove-uscite{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
 }
 /* FOOTER */
