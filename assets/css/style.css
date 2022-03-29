@@ -83,7 +83,6 @@ header{
 
 #descrizione img{
     width: 200px;
-    
 }
 
 .sc-container-banner h2,
@@ -99,4 +98,18 @@ header{
     color: white;
     padding: 20px 0;
 }
+
+/* Small banner */
+
+#playstation-plus{
+    background-color: #bebcbb ;
+}
+#playstation-plus img{
+    width: 100%;
+}
+#playstation-plus img.logo-plus{
+    margin-top: 40px;
+    width: 300px;
+}
+
 /* FOOTER */
