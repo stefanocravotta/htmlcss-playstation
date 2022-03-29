@@ -60,4 +60,13 @@ header{
 .sc-img-50 img{
     width: 100%;
 }
+
+#schede-prodotti .sc-card-opacity{
+    margin: 15px 20px;
+    overflow: hidden;
+}
+
+#schede-prodotti .sc-card-opacity img{
+    width: 100%;
+}
 /* FOOTER */
