@@ -85,12 +85,6 @@ header{
     width: 200px;
 }
 
-.sc-container-banner h2,
-.sc-container-banner p,
-.sc-container-banner .sc-btn{
-    margin: 20px 0;
-}
-
 /* NUOVE USCITE */
 
 #nuove-uscite{
@@ -108,6 +102,12 @@ header{
 #playstation-plus img.logo-plus{
     margin-top: 40px;
     width: 300px;
+}
+
+/* SCONTI */
+
+#sconti .sc-card{
+    border-radius: 0;
 }
 
 /* FOOTER */
