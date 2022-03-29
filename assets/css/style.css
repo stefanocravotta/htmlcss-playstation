@@ -6,9 +6,9 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
     background-color: white;
 }
-
 .sc-header-top{
     height: 25px;
     background-color: black;
@@ -19,14 +19,31 @@ header{
     margin-right: 10px;
 }
 
-
-
-
 /* JUMBOTRON */
 
 .jumbotron{
-    height: 500px;
+    height: 600px;
+    margin-top: 80px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
+.jumbotron img{
+    height: 40px;
+}
+.jumbotron .sc-container-jumbo{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 250px;
+}
+.sc-container-jumbo h2,
+.sc-container-jumbo p,
+.sc-container-jumbo .sc-btn{
+    margin-top: 20px;
+}
+
 
 /* MAIN */
 

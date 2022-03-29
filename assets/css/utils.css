@@ -1,3 +1,20 @@
+/* SC-BUTTON */
+.sc-btn{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    line-height: 15px;
+    vertical-align: middle;
+    border: none;
+}
+
+/* SC-BACKGROUND-COLOR */
+
+.sc-bg-orange{
+    background-color: #cd3d0f ;
+}
+
 
 /* DEBUG */
 
