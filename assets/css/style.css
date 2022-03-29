@@ -69,4 +69,34 @@ header{
 #schede-prodotti .sc-card-opacity img{
     width: 100%;
 }
+
+/* BANNER */
+
+#banner{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#descrizione{
+    height: 100%;
+    padding: 25px 0;
+}
+
+#descrizione .sc-container-banner{
+    width: 250px;
+    height: 100%;
+    margin: 0;
+}
+
+#descrizione img{
+    width: 200px;
+    
+}
+
+.sc-container-banner h2,
+.sc-container-banner p,
+.sc-container-banner .sc-btn{
+    margin-top: 20px;
+}
 /* FOOTER */
