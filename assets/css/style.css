@@ -44,8 +44,16 @@ header{
     margin-top: 20px;
 }
 
-
 /* MAIN */
 
+#copertine .card{
+    margin: 15px 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#copertine .card img{
+    width: 100%;
+}
 
 /* FOOTER */
