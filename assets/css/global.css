@@ -4,3 +4,10 @@
 .sc-container-banner .sc-btn{
     margin: 20px 0;
 }
+
+/* LOGO BANNER */
+
+img.logo-banner{
+    margin-top: 40px;
+    width: 300px;
+}
