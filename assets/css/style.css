@@ -32,13 +32,12 @@ header{
 .jumbotron img{
     height: 40px;
 }
-.jumbotron .sc-container-jumbo{
+.jumbotron .container{
     padding-top: 200px;
-    width: 250px;
 }
-.sc-container-jumbo h2,
-.sc-container-jumbo p,
-.sc-container-jumbo .sc-btn{
+.jumbotron .container h2,
+.jumbotron .container p,
+.jumbotron .container .sc-btn{
     margin-top: 20px;
 }
 
@@ -54,7 +53,7 @@ header{
 }
 
 #schede-prodotti .sc-card-opacity{
-    margin: 15px 20px;
+    margin: 15px;
     overflow: hidden;
 }
 
@@ -71,18 +70,18 @@ header{
 }
 
 #descrizione{
-    height: 100%;
-    padding: 25px 0;
-}
-
-#descrizione .sc-container-banner{
-    width: 250px;
-    height: 100%;
-    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #descrizione img{
     width: 200px;
+}
+
+#descrizione.container h2,
+#descrizione.container p,
+#descrizione.container .sc-btn{
+    margin-top: 20px;
 }
 
 /* NUOVE USCITE */
@@ -132,12 +131,18 @@ header{
 
 /* FOOTER */
 
+footer{
+    background-color: #00439c;
+}
 
-.sc-logo-footer img{
-    width: 100px;
+footer a{
+    color: white;
 }
 
 footer ul{
     list-style: none;
     padding-left: 0;
+}
+.sc-logo-footer img{
+    width: 100px;
 }
