@@ -19,6 +19,24 @@ header{
     margin-right: 10px;
 }
 
+.sc-header-bottom .navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+/* DROPDOWN */
+
+.sc-header-bottom .dropdown, .dropend, .dropstart, .dropup{
+    position: static;
+}
+
+.sc-header-bottom .dropdown-menu[data-bs-popper] {
+  top: 95%;
+  left: 0;
+  right: 0;
+  margin-top: .125rem;
+}
+
+
 /* JUMBOTRON */
 
 .jumbotron{
@@ -45,6 +63,15 @@ header{
 
 /* COPERTINE */
 
+#copertine .sc-card{
+    margin-top: 35px;
+    transition: all 1s;
+}
+
+#copertine .sc-card:hover{
+    margin-top: 20px;
+    opacity: .7;
+}
 
 /* PLAYSTATION 5 */
 
@@ -110,8 +137,11 @@ header{
 #playstation-plus{
     background-color: #bebcbb ;
 }
-
-#playstation-plus 
+ 
+#playstation-plus p,
+#playstation-plus .sc-btn-container{
+    margin-top: 30px;
+}
 
 /* SCONTI */
 
@@ -130,17 +160,16 @@ header{
     background-color: #161c3b;
 }
 
+#playstation-now p,
+#playstation-now .sc-btn-container{
+    margin-top: 30px;
+}
+
 /* SOCIAL-MEDIA */
 
 #social-media .sc-card{
     border-radius: 0;
-    margin: 20px 5px;
 }
-
-#social-media .sc-card img{
-    width: 70px;
-}
-
 
 /* FOOTER */
 
@@ -150,6 +179,7 @@ footer{
 
 footer a{
     color: white;
+    text-decoration: none;
 }
 
 footer ul{

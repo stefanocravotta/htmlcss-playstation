@@ -1,12 +1,31 @@
+
+
+/* GENERAL */
+.sc-p-small{
+    font-size: .8rem;
+}
+
 /* SC-BUTTON */
-.sc-btn{
+
+.sc-btn-container{
     display: inline-block;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 9px 5px;
+    border-radius: 25px;
+}
+
+.sc-btn{
     color: white;
-    line-height:20px;
-    vertical-align: middle;
-    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+}
+
+.sc-btn.sc-btn-border-black:hover{
+    border: 2px solid black;
+}
+
+.sc-btn-border-white:hover{
+    border: 2px solid white;
 }
 
 
@@ -16,6 +35,7 @@
     border-radius: 15px;
     overflow: hidden;
 }
+
 .sc-card img{
     width: 100%;
 }
@@ -30,9 +50,18 @@
     background-color: #2d64e6;
 }
 
-.sc-p-small{
-    font-size: .8rem;
+.sc-bg-darkgrey{
+    background-color: #5b636a;
 }
+
+.sc-bg-grey{
+    background-color: #bebcbb;
+}
+
+.sc-bg-lightgrey{
+    background-color: #dadbdc ;
+}
+
 
 /* COLOR TEXT */
 
