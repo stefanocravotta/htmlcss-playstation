@@ -4,10 +4,11 @@
     padding: 10px;
     border-radius: 15px;
     color: white;
-    line-height: 15px;
+    line-height:20px;
     vertical-align: middle;
     border: none;
 }
+
 
 /* CARD */
 .sc-card{
@@ -18,7 +19,6 @@
 .sc-card img{
     width: 100%;
 }
-
 
 /* SC-BACKGROUND-COLOR */
 
@@ -34,6 +34,15 @@
     font-size: .8rem;
 }
 
+/* COLOR TEXT */
+
+.sc-color-blue{
+    color: #2d64e6;
+}
+
+.sc-color-grey{
+    color: #6c6c6c;
+}
 /* DEBUG */
 
 .debug{

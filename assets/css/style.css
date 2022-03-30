@@ -54,11 +54,24 @@ header{
 
 #schede-prodotti .sc-card-opacity{
     margin: 15px;
+    height: 90%;
     overflow: hidden;
+    opacity: .5;
+    transition: 1s;
+}
+
+#schede-prodotti .sc-card-opacity:hover{
+    opacity: 1;
+}
+
+#schede-prodotti .sc-card-opacity.active-down{
+    border-bottom: 2px solid #2c8ad6;
+    opacity: 1;
 }
 
 #schede-prodotti .sc-card-opacity img{
     width: 100%;
+    
 }
 
 /* BANNER */

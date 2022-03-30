@@ -1,13 +1,11 @@
-/* container banner */
-.sc-container-banner h2,
-.sc-container-banner p,
-.sc-container-banner .sc-btn{
-    margin: 20px 0;
+body{
+    
+    font-weight:600;
 }
-
 /* LOGO BANNER */
 
 img.logo-banner{
     margin-top: 40px;
     width: 300px;
 }
+
