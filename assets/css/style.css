@@ -64,13 +64,21 @@ header{
 /* COPERTINE */
 
 #copertine .sc-card{
-    margin-top: 35px;
     transition: all 1s;
+    margin-top: 30px;
 }
 
 #copertine .sc-card:hover{
-    margin-top: 20px;
+    margin-top: 15px;
     opacity: .7;
+}
+
+#copertine .active-card{
+    box-shadow: 2px 2px 2px 2px #2c8ad6;
+}
+
+#copertine .sc-card.active-card{
+    margin-top: 15px;
 }
 
 /* PLAYSTATION 5 */
@@ -107,11 +115,7 @@ header{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
-}
-
-#descrizione{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 60px 0;
 }
 
 #descrizione img{
@@ -130,6 +134,10 @@ header{
     background-color: #1f1f1f;
     color: white;
     padding: 20px 0;
+}
+
+#nuove-uscite .sc-card{
+    cursor: pointer;
 }
 
 /* PLAYSTATION PLUS */
