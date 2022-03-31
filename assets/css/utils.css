@@ -27,6 +27,9 @@
 .sc-btn-border-white:hover{
     border: 2px solid white;
 }
+.sc-btn-border-green:hover{
+    border: 2px solid #144242;
+}
 
 
 /* CARD */
@@ -67,6 +70,9 @@
     background-color: #144242;
 }
 
+.sc-bg-gold{
+    background-color: #FADD9D;
+}
 
 /* COLOR TEXT */
 
@@ -84,6 +90,10 @@
 
 .sc-color-light-gold{
     color: #FADD9D;
+}
+
+.sc-color-dark-green{
+    color: #144242;
 }
 
 /* DEBUG */

@@ -201,6 +201,10 @@ header{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+#questo-mese .sc-btn:hover {
+    background-color: #FADD9D;
+    color: #144242;
+}
 /* NUOVE USCITE */
 
 #nuove-uscite{
