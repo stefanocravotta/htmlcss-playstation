@@ -19,7 +19,7 @@ header{
     margin-right: 10px;
 }
 
-.sc-header-bottom .navbar-light .navbar-nav .nav-link{
+.sc-header-bottom .navbar-light .navbar-nav .nav-link,i{
     color: black;
 }
 
@@ -35,6 +35,26 @@ header{
   right: 0;
   margin-top: .125rem;
 }
+
+.sc-header-bottom .dropdown-menu{
+    background-clip: none;
+    border: none;
+}
+.sc-header-bottom .dropdown-item{
+    display: inline;
+}
+.sc-header-bottom .dropdown-menu li.sc-top-dropdown{
+    display: inline-block;
+}
+
+.sc-top-dropdown a:hover{
+    background-color: transparent;
+}
+
+.sc-card-nav:hover{
+    box-shadow: 1px 1px 8px 2px grey;
+}
+
 
 
 /* JUMBOTRON */
@@ -65,23 +85,33 @@ header{
 
 #copertine .sc-card{
     transition: all 1s;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #copertine .sc-card:hover{
-    margin-top: 15px;
+    transform: translatey(-20px);
     opacity: .7;
 }
 
 #copertine .active-card{
-    box-shadow: 2px 2px 2px 2px #2c8ad6;
+    border: 2px solid #2c8ad6;
 }
 
 #copertine .sc-card.active-card{
-    margin-top: 15px;
+    transform: translatey(-20px);
+}
+
+#copertine .active-card img{
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 /* PLAYSTATION 5 */
+
+
+#maggiori-informazioni p{
+    padding: 20px 0;
+}
 
 .sc-img-50 img{
     width: 100%;
@@ -151,6 +181,10 @@ header{
     margin-top: 30px;
 }
 
+#playstation-plus .sc-btn-container:hover{
+    background-color: #bebcbb;
+}
+
 /* SCONTI */
 
 #sconti .sc-card{
@@ -185,15 +219,25 @@ footer{
     background-color: #00439c;
 }
 
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
 footer a{
     color: white;
     text-decoration: none;
 }
 
-footer ul{
-    list-style: none;
-    padding-left: 0;
+footer a:hover{
+    color: white;
+    text-decoration: underline;
 }
+
 .sc-logo-footer img{
     width: 100px;
+}
+
+.credits a{
+    text-decoration: underline;
 }
