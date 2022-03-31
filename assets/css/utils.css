@@ -63,6 +63,10 @@
     background-color: #dadbdc ;
 }
 
+.sc-bg-dark-green{
+    background-color: #144242;
+}
+
 
 /* COLOR TEXT */
 
@@ -73,6 +77,15 @@
 .sc-color-grey{
     color: #6c6c6c;
 }
+
+.sc-color-gold{
+    color: #D9C49F;
+}
+
+.sc-color-light-gold{
+    color: #FADD9D;
+}
+
 /* DEBUG */
 
 .debug{
